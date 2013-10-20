@@ -1,0 +1,51 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  z-index: -1;
+}
+
+body {
+  animation:colours 15s linear infinite;
+  -webkit-animation:colours 15s linear infinite; /* Safari and Chrome */
+  max-width: 100%; 
+}
+
+@keyframes colours {
+  0%   {background: tomato url(images/space.png)}
+  20%  {background: yellow url(images/space.png)}
+  40%  {background: steelblue url(images/space.png)}
+  60%  {background: green url(images/space.png)}
+  80%  {background: white url(images/space.png)}
+  100% {background: tomato url(images/space.png)}
+}
+
+@-webkit-keyframes colours { /* Safari and Chrome */
+  0%   {background: tomato url(images/space.png)}
+  20%  {background: yellow url(images/space.png)}
+  40%  {background: steelblue url(images/space.png)}
+  60%  {background: green url(images/space.png)}
+  80%  {background: white url(images/space.png)}
+  100% {background: tomato url(images/space.png)}
+}
+
+#space {
+  /*content:url(space.png);
+  height: 100%;
+  width: 100%;*/
+}
+
+.white {
+  color: #ddd;
+}
+
+.navbar-inverse {
+  background-color: #efefef;
+}
+
+.jumbotron {
+  background-color: none;
+}
+
+a .navbar-brand {
+  color: #666;
+}
