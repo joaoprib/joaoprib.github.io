@@ -20,12 +20,12 @@ body {
 }
 
 @-webkit-keyframes colours { /* Safari and Chrome */
-  0%   {background: tomato url(images/space.png)}
-  20%  {background: yellow url(images/space.png)}
-  40%  {background: steelblue url(images/space.png)}
-  60%  {background: green url(images/space.png)}
-  80%  {background: white url(images/space.png)}
-  100% {background: tomato url(images/space.png)}
+  0%   {background: tomato url(../images/space.png)}
+  20%  {background: yellow url(../images/space.png)}
+  40%  {background: steelblue url(../images/space.png)}
+  60%  {background: green url(../images/space.png)}
+  80%  {background: white url(../images/space.png)}
+  100% {background: tomato url(../images/space.png)}
 }
 
 #space {
