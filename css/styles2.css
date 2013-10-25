@@ -5,9 +5,9 @@ html, body {
 }
 
 body {
-  animation:colours 15s linear infinite;
+  /*animation:colours 15s linear infinite;
   -webkit-animation:colours 15s linear infinite; /* Safari and Chrome */
-  background: black;
+  background: url(../images/purp.png);
   max-width: 100%; 
 }
 
