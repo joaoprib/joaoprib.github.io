@@ -5,18 +5,19 @@ html, body {
 }
 
 body {
-  animation:colours 15s linear infinite;
+  /*animation:colours 15s linear infinite;
   -webkit-animation:colours 15s linear infinite; /* Safari and Chrome */
+  background: url(../images/purp.png);
   max-width: 100%; 
 }
 
 @keyframes colours {
-  0%   {background: tomato url(images/space.png)}
-  20%  {background: yellow url(images/space.png)}
-  40%  {background: steelblue url(images/space.png)}
-  60%  {background: green url(images/space.png)}
-  80%  {background: white url(images/space.png)}
-  100% {background: tomato url(images/space.png)}
+  0%   {background: tomato url(../images/space.png)}
+  20%  {background: yellow url(../images/space.png)}
+  40%  {background: steelblue url(../images/space.png)}
+  60%  {background: green url(../images/space.png)}
+  80%  {background: white url(../images/space.png)}
+  100% {background: tomato url(../images/space.png)}
 }
 
 @-webkit-keyframes colours { /* Safari and Chrome */
@@ -43,7 +44,8 @@ body {
 }
 
 .jumbotron {
-  background-color: none;
+  background-color: inherit;
+  margin-top: 50px;
 }
 
 a .navbar-brand {
