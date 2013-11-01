@@ -1,3 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
+@import url(http://fonts.googleapis.com/css?family=Gudea:400,700);
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
 html, body {
   height: 100%;
   margin: 0;
@@ -7,8 +12,9 @@ html, body {
 body {
   /*animation:colours 15s linear infinite;
   -webkit-animation:colours 15s linear infinite; /* Safari and Chrome */
-  background: url(../images/purp.png);
-  max-width: 100%; 
+  background: url(../images/purp_s.png);
+  font-family: 'Raleway';
+  font-weight: 600;
 }
 
 @keyframes colours {
@@ -29,10 +35,9 @@ body {
   100% {background: tomato url(../images/space.png)}
 }
 
-#space {
-  /*content:url(space.png);
-  height: 100%;
-  width: 100%;*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gudea';
+  font-weight: 600; 
 }
 
 .white {
@@ -51,3 +56,9 @@ body {
 a .navbar-brand {
   color: #666;
 }
+
+footer {
+  font-family: 'Oxygen';
+  margin-top: 40px;
+}
+
