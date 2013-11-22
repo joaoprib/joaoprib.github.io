@@ -61,10 +61,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 50px;
 }
 
-a .navbar-brand {
-  color: #666;
-}
-
 .container img{
   display: block;
   margin: 20px auto;
@@ -77,3 +73,30 @@ footer {
   margin-top: 40px;
 }
 
+footer .social{
+  margin: 0 10px;
+}
+
+footer .refs{
+  margin-top:8px;
+}
+
+a{
+  color: #fff;
+  font-weight: 800;
+}
+
+a:hover{
+  color: #63CB23;
+  text-decoration: none;
+}
+
+footer div[class*='col-xs-'] {
+  margin-bottom: 20px;
+}
+
+.jumbotron {
+  margin: 20px auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
