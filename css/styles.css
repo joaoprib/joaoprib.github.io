@@ -3,13 +3,13 @@
 @import url(http://fonts.googleapis.com/css?family=Gudea:400,700);
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
 
-html, body {
+html, body{
   height: 100%;
   margin: 0;
   z-index: -1;
 }
 
-body {
+body{
   /*animation:colours 15s linear infinite;
   -webkit-animation:colours 15s linear infinite; /* Safari and Chrome */
   background: url(../images/purp_s.png);
@@ -17,31 +17,31 @@ body {
   font-weight: 600;
 }
 
-@keyframes colours {
-  0%   {background: tomato url(../images/space.png)}
-  20%  {background: yellow url(../images/space.png)}
-  40%  {background: steelblue url(../images/space.png)}
-  60%  {background: green url(../images/space.png)}
-  80%  {background: white url(../images/space.png)}
-  100% {background: tomato url(../images/space.png)}
+@keyframes colours{
+  0%  {background: tomato url(../images/space.png)}
+  20% {background: yellow url(../images/space.png)}
+  40% {background: steelblue url(../images/space.png)}
+  60% {background: green url(../images/space.png)}
+  80% {background: white url(../images/space.png)}
+  100%{background: tomato url(../images/space.png)}
 }
 
-@-webkit-keyframes colours { /* Safari and Chrome */
-  0%   {background: tomato url(../images/space.png)}
-  20%  {background: yellow url(../images/space.png)}
-  40%  {background: steelblue url(../images/space.png)}
-  60%  {background: green url(../images/space.png)}
-  80%  {background: white url(../images/space.png)}
-  100% {background: tomato url(../images/space.png)}
+@-webkit-keyframes colours{ /* Safari and Chrome */
+  0%  {background: tomato url(../images/space.png)}
+  20% {background: yellow url(../images/space.png)}
+  40% {background: steelblue url(../images/space.png)}
+  60% {background: green url(../images/space.png)}
+  80% {background: white url(../images/space.png)}
+  100%{background: tomato url(../images/space.png)}
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6{
   font-family: 'Gudea';
   font-weight: 600; 
 }
 
-.white {
-  color: #ddd;
+.white{
+  color: #f7f7f7;
 }
 
 .transparent{
@@ -52,23 +52,28 @@ h1, h2, h3, h4, h5, h6 {
   opacity: .3;
 }
 
-.navbar-inverse {
+.navbar-inverse{
   background-color: #efefef;
-}
-
-.jumbotron {
-  background-color: inherit;
-  margin-top: 50px;
 }
 
 .container img{
   display: block;
   margin: 20px auto;
-  width: 60%;
   max-width: 250px;
 }
 
-footer {
+.jumbotron{
+  background-color: inherit;
+  margin: 20px auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+h2 .fa{
+  font-size: 18pt;
+}
+
+footer{
   font-family: 'Oxygen';
   margin-top: 40px;
 }
@@ -91,12 +96,32 @@ a:hover{
   text-decoration: none;
 }
 
-footer div[class*='col-xs-'] {
+footer div[class*='col-xs-']{
   margin-bottom: 20px;
 }
 
-.jumbotron {
-  margin: 20px auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
+.box{  
+    width: 300px;  
+    height: 300px;  
+    -webkit-transition: width 2s ease, height 2s ease;  
+    -moz-transition: width 2s ease, height 2s ease;  
+    -o-transition: width 2s ease, height 2s ease;  
+    transition: width 2s ease, height 2s ease;  
+}
+  
+.box-change{  
+    width: 400px;  
+    height: 400px;  
+}
+
+.circular{
+  border-radius: 128px;
+  -webkit-border-radius: 128px;
+  -moz-border-radius: 128px;
+}
+
+.portrait{
+  margin: 0;
+  padding: 0;
+  width: 64px;
 }
