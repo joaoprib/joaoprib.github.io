@@ -10,9 +10,7 @@ html, body{
 }
 
 body{
-  /*animation:colours 15s linear infinite;
-  -webkit-animation:colours 15s linear infinite; /* Safari and Chrome */
-  background: url(../images/purp_s.png);
+  background: url(../images/purp_s2.png);
   font-family: 'Raleway';
   font-weight: 600;
 }
@@ -37,7 +35,7 @@ body{
 
 h1, h2, h3, h4, h5, h6{
   font-family: 'Gudea';
-  font-weight: 600; 
+  font-weight: 600;
 }
 
 .white{
@@ -100,18 +98,18 @@ footer div[class*='col-xs-']{
   margin-bottom: 20px;
 }
 
-.box{  
-    width: 300px;  
-    height: 300px;  
-    -webkit-transition: width 2s ease, height 2s ease;  
-    -moz-transition: width 2s ease, height 2s ease;  
-    -o-transition: width 2s ease, height 2s ease;  
-    transition: width 2s ease, height 2s ease;  
+.box{
+    width: 300px;
+    height: 300px;
+    -webkit-transition: width 2s ease, height 2s ease;
+    -moz-transition: width 2s ease, height 2s ease;
+    -o-transition: width 2s ease, height 2s ease;
+    transition: width 2s ease, height 2s ease;
 }
-  
-.box-change{  
-    width: 400px;  
-    height: 400px;  
+
+.box-change{
+    width: 400px;
+    height: 400px;
 }
 
 .circular{
