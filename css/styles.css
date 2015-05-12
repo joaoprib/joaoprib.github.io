@@ -10,7 +10,7 @@ html, body{
 }
 
 body{
-  background: url(../images/purp_s2.png);
+  background: url(../images/ns.png);
   font-family: 'Raleway';
   font-weight: 600;
 }
@@ -119,6 +119,7 @@ footer div[class*='col-xs-']{
 }
 
 .portrait{
+  cursor:pointer;
   margin: 0;
   padding: 0;
   width: 64px;

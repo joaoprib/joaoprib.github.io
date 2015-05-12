@@ -11,7 +11,6 @@
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <!--<link href="images/favicon.ico" rel="icon" type="image/x-icon" />-->
     <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
 
     <script>
@@ -70,24 +69,30 @@
       </div>
 
     <footer class="container text-center white">
-        <div class="row">
-          <div class="col-xs-12 col-sm-5">
-            <a class="social" href="http://www.facebook.com/joaoprib"><i class="fa fa-facebook fa-2x"></i></a>
-            <a class="social" href="http://www.linkedin.com/in/joaoprib"><i class="fa fa-linkedin fa-2x"></i></a>
-            <a class="social" href="https://dl.dropboxusercontent.com/u/4155330/CV%20-%20Joao%20Ribeiro.pdf#" style="font-size:24px">CV</a>
-            <script>
-              document.write("<a class='social' href='" + "mail" + "to:" + username + "@" + hostname + "'><i class='fa fa-envelope-o fa-2x'></i></a>");
-            </script>
-          </div>
-          <div class="col-xs-12 col-sm-2">
-            <img class="circular portrait" src="images/blink.gif" alt="blink gif"/>
-          </div>
-          <div class="col-xs-12 col-sm-5 refs">
-             - made with <a href="http://getbootstrap.com/">bootstrap</a> and <a href="http://fontawesome.io/">font awesome</a> -
-          </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-5">
+          <a class="social" href="http://www.facebook.com/joaoprib"><i class="fa fa-facebook fa-2x"></i></a>
+          <a class="social" href="http://www.linkedin.com/in/joaoprib"><i class="fa fa-linkedin fa-2x"></i></a>
+          <a class="social" href="https://dl.dropboxusercontent.com/u/4155330/CV%20-%20Joao%20Ribeiro.pdf#" style="font-size:24px">CV</a>
+          <script>
+            document.write("<a class='social' href='" + "mail" + "to:" + username + "@" + hostname + "'><i class='fa fa-envelope-o fa-2x'></i></a>");
+          </script>
         </div>
+        <div class="col-xs-12 col-sm-2">
+          <img class="circular portrait" src="images/blink.gif" alt="blink gif" onclick="rndbg()"/>
+        </div>
+        <div class="col-xs-12 col-sm-5 refs">
+           - made with <a href="http://getbootstrap.com/">bootstrap</a> and <a href="http://fontawesome.io/">font awesome</a> -
+        </div>
+      </div>
     </footer>
   </body>
-  <!--<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.10.2.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>-->
+  <script>
+    function rndbg() {
+      var colors = ['#1a0b25', '#0A1F33', '#110826', '#0B1536', '#022033'];
+      var random_color = colors[Math.floor(Math.random() * colors.length)];
+      document.body.style.backgroundColor = random_color;
+    }
+    rndbg();
+  </script>
 </html>
